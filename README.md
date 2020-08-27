@@ -14,23 +14,16 @@ This example project demonstrates usage in an Angular 10 application.
 
 ## Try the example
 
-Clone the [@stoplight/elements repo](https://github.com/stoplightio/elements/tree/beta/) and check out the `beta` branch if you haven't already.
+Clone the [@stoplight/elements-starter-angular](https://github.com/stoplightio/elements-starter-angular) and install dependencies.
 
 ```bash
-git clone https://github.com/stoplightio/elements.git
+git clone https://github.com/stoplightio/elements-starter-angular.git
 
-cd elements
-
-git checkout beta
-```
-
-Now you can visit the *angular* folder under *examples*, and install dependencies using `yarn`.
-
-```bash
-cd examples/angular
+cd elements-starter-angular
 
 yarn
 ```
+
 
 If the above was successful, you can launch the example project using `yarn start`.
 
@@ -61,7 +54,7 @@ yarn add @stoplight/elements-web-components
 ### Step 2 - Set up scripts and styles
 
 To make *Angular* know about the Stoplight elements and their styling, you should set up the following in your angular.json:
-```json
+```jsonc
 {
   "projects": {
     "your-project-name": {
@@ -100,14 +93,14 @@ In order to use custom elements in an *Angular* application, you have to add som
 
 Find the declaring *NgModule* of the component in which you wish to utilize *Stoplight Elements*, and amend its decorator like so:
 ```tsx
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+
 @NgModule({
   // ...
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class SomeModule {}
 ```
-
-You will also need to import `CUSTOM_ELEMENTS_SCHEMA` from `@angular/core` if your IDE does not do it for you automatically.
 
 ### Ready to go
 
