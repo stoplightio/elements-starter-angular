@@ -5,10 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['../app.component.css'],
 })
-export class HomeComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
-
-  public title = 'Angular demo';
+export class HomeComponent {
+  public title = 'Elements Starter Angular';
 }

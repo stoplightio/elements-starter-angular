@@ -11,8 +11,8 @@
   },
   "scripts": {
     "start": "ng serve",
-    "build": "ng build --prod",
-    "postinstall": "ngcc --tsconfig './tsconfig.app.json'"
+    "build": "ng build --prod --base-href '/elements-starter-angular'",
+    "lint": "tslint 'src/**/*.ts'"
   },
   "bugs": {
     "url": "https://github.com/stoplightio/elements-starter-angular/issues"
@@ -50,6 +50,7 @@
     "protractor": "~7.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~6.1.0",
+    "tslint-config-stoplight": "^1.4.0",
     "typescript": "~3.9.7"
   }
 }

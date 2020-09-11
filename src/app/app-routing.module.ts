@@ -9,11 +9,15 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   {
-    path: 'workspace-docs',
+    path: 'docs',
     component: DocsComponent,
     children: [{ path: '**', component: DocsComponent }],
   },
-  { path: 'oas-docs', component: ApiComponent, children: [{ path: '**', component: ApiComponent }] },
+  {
+    path: 'reference',
+    component: ApiComponent,
+    children: [{ path: '**', component: ApiComponent }],
+  },
 ];
 
 @NgModule({
