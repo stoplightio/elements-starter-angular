@@ -80,13 +80,6 @@ To make *Angular* know about the Stoplight elements and their styling, you shoul
 }
 ```
 
-In addition, **Stoplight Elements needs Font Awesome 5** set up to display its icons.
-
-If you have not already, please either use a *kit* or refer to the [official documentation](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers) on installing the CSS & WebFonts via NPM.
-
-> **NOTE:** Having the `@fortawesome/angular-fontawesome` package installed is **not sufficient**.
-> *Elements*'s custom elements are *framework-agnostic* and do not have access to the *Angular* components. They expect the global Font Awesome CSS to be included on the page.
-
 ### Step 3 - CUSTOM_ELEMENTS_SCHEMA
 
 In order to use custom elements in an *Angular* application, you have to add something called the *CUSTOM_ELEMENTS_SCHEMA*.
