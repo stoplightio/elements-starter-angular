@@ -1119,10 +1119,10 @@
     semver "7.3.2"
     semver-intersect "1.4.0"
 
-"@stoplight/elements-web-components@beta":
-  version "6.0.0-beta.145"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements-web-components/-/elements-web-components-6.0.0-beta.145.tgz#07956a8ecb17b14eb37f40355badf1da1b5e76c3"
-  integrity sha512-hK3I7RfVebU2uIV8FlGD8w3wzGtlQPE/KAz5efFEgopt1Y4rDo3GTu9Tm7oZP61wN0+9GTWGVuYHPfAyjhM33A==
+"@stoplight/elements-web-components@6.0.0-beta.163":
+  version "6.0.0-beta.163"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements-web-components/-/elements-web-components-6.0.0-beta.163.tgz#4eea88cfec7d64506141f43acd944ec956d10276"
+  integrity sha512-AJBqy04EsnOJ51CN5SHW0SBKaFO62XC1qrEW/r+UKmVculMf/R2D+2Outf3KYAlWiNEN9ssWzcUBFPBfaQABmQ==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
