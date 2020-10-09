@@ -9,9 +9,3 @@ updates:
     schedule:
       interval: "monthly"
     versioning-strategy: "increase-if-necessary"
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    allow:
-      - dependency-name: "@stoplight/elements-web-components"
