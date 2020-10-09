@@ -27,7 +27,6 @@
     "@angular/platform-browser-dynamic": "~10.0.11",
     "@angular/router": "~10.0.11",
     "@stoplight/elements-web-components": "^6.0.0-beta.166",
-    "rxjs": "~6.6.2",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
