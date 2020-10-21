@@ -12,6 +12,7 @@
   "scripts": {
     "start": "ng serve",
     "build": "ng build --prod --base-href '/elements-starter-angular'",
+    "postinstall": "ngcc --tsconfig './tsconfig.app.json'",
     "lint": "tslint 'src/**/*.ts'"
   },
   "bugs": {
