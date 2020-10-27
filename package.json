@@ -13,7 +13,11 @@
     "start": "ng serve",
     "build": "ng build --prod --base-href '/elements-starter-angular'",
     "postinstall": "ngcc --tsconfig './tsconfig.app.json'",
-    "lint": "tslint 'src/**/*.ts'"
+    "lint": "tslint 'src/**/*.ts'",
+    "serve-prod": "angular-http-server --path ./dist/angular -p 4200",
+    "e2e:execute": "cypress run",
+    "e2e:open": "cypress open",
+    "e2e:run": "start-server-and-test serve-prod http://localhost:4200 e2e:execute"
   },
   "bugs": {
     "url": "https://github.com/stoplightio/elements-starter-angular/issues"
@@ -37,6 +41,9 @@
     "@angular/compiler-cli": "~10.0.11",
     "@angular/language-service": "~10.1.6",
     "@types/node": "^12.11.1",
+    "angular-http-server": "~1.9.0",
+    "cypress": "^5.4.0",
+    "start-server-and-test": "^1.11.5",
     "tslint": "~6.1.0",
     "tslint-config-stoplight": "^1.4.0",
     "typescript": "~3.9.7"
