@@ -1190,9 +1190,9 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@stoplight/elements-web-components@^6.0.0-beta.166":
-  version "6.0.0-beta.166"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements-web-components/-/elements-web-components-6.0.0-beta.166.tgz#3b48dd49af9a67e0b01f59079dc7f982c1d88e69"
-  integrity sha512-IjgtctJLH53EzoQ1LlMHXzErDTkTX5Hv5CIZLpVQhYol9wqZt2UtY76r6NAjA20/t3Rdd2NaggL6Xi/vCc4tQg==
+  version "6.0.0-beta.176"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements-web-components/-/elements-web-components-6.0.0-beta.176.tgz#976244005f9846b0f85469e6f87fbad2f1b6a9f4"
+  integrity sha512-2rCjBPktYcRPMpHAREg6wZYE7AGyVLsWMK3Dt3YIUlW0fchD9AkQtvpaPk6PZfrCZXkOrssFwgNSM8JQqtY0Gw==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
