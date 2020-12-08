@@ -14,8 +14,10 @@
       "extends": [
         "plugin:@angular-eslint/recommended",
         // This is required if you use inline templates in Components
-        "plugin:@angular-eslint/template/process-inline-templates"
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "plugin:prettier/recommended"
       ],
+      "plugins": ["prettier"],
       "rules": {
         /**
          * Any TypeScript source code (NOT TEMPLATE) related rules you wish to use/reconfigure over and above the
@@ -36,7 +38,8 @@
             "prefix": "app",
             "style": "kebab-case"
           }
-        ]
+        ],
+        "prettier/prettier": "error"
       }
     },
     {
