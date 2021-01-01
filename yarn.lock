@@ -156,10 +156,10 @@
   dependencies:
     "@typescript-eslint/experimental-utils" "4.3.0"
 
-"@angular-eslint/eslint-plugin@0.8.0-beta.3", "@angular-eslint/eslint-plugin@^0.8.0-beta.3":
-  version "0.8.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin/-/eslint-plugin-0.8.0-beta.3.tgz#68b3a3108a125cc053f2a0e5938092a78d1929f0"
-  integrity sha512-ZnvxdX5GvElNLT7kQ530mqyMbwdU87JPTnAj6sT6V9PyqOzyLkSs7pssNXf4HjTrkvYHda6w3cGBI8uG2ANbKQ==
+"@angular-eslint/eslint-plugin@0.8.0-beta.7", "@angular-eslint/eslint-plugin@^0.8.0-beta.3":
+  version "0.8.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin/-/eslint-plugin-0.8.0-beta.7.tgz#fcdb33e2fc83e0448c09c6f00d0a6e9021936b10"
+  integrity sha512-MsOzL+7O6bzNA18MZoPKc2SZCD5oavQQEnBeHNGERvZuqrj2Omf/9xjFzoRmAlvGqYUmsF8x6qTdSjLmE5IDVQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "4.3.0"
 
