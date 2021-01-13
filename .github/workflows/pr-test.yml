@@ -18,3 +18,5 @@ jobs:
         run: yarn lint
       - name: Run production build
         run: yarn build
+      - name: Run e2e tests
+        run: yarn e2e:run
