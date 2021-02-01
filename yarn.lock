@@ -1478,9 +1478,9 @@
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
 "@stoplight/elements-web-components@^6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements-web-components/-/elements-web-components-6.1.1.tgz#7b34d9d831a04fdfdf49ce07237958a05dff73ef"
-  integrity sha512-rlUn5+Q+dgh44AR8nioPpG8F5o+Jf5hpLbRKPHKDCGTRuY/Hb67JQ8WTjJ3drxrXozsXQTCaRpt06oDHWmKArQ==
+  version "6.1.9"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements-web-components/-/elements-web-components-6.1.9.tgz#7ed67b5d7e357bb4f5915856724c745f2a64b60c"
+  integrity sha512-pP/j8dEG1M/vmnmR6DwiMjtzn0Q5YKv0DGMcgL6qTpjG9cw2ej0KVWMvgTDSBi11nKsGkuOWogiV2miLsV8GRw==
 
 "@stoplight/eslint-config@^1.2.0":
   version "1.2.0"
